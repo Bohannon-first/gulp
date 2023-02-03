@@ -5,7 +5,9 @@
   "description": "Кошачий питомник",
   "license": "MIT",
   "scripts": {
-    "start": "gulp start"
+    "start": "gulp start",
+    "build": "gulp build",
+    "test": "gulp test"
   },
   "browserslist": [
     "last 4 versions",
@@ -20,8 +22,11 @@
     "autoprefixer": "^10.4.13",
     "browser-sync": "^2.27.10",
     "del": "6.1.1",
+    "eslint": "^8.33.0",
+    "eslint-config-htmlacademy": "^9.0.0",
     "gulp": "^4.0.2",
     "gulp-csso": "^4.0.1",
+    "gulp-eslint": "^6.0.0",
     "gulp-group-css-media-queries": "^1.2.2",
     "gulp-imagemin": "7.1.0",
     "gulp-postcss": "^9.0.1",
